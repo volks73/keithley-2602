@@ -3,8 +3,6 @@
 
 = Keithley 2602 LabVIEW Driver and Application =
 
-Created by Christopher R. Field <christopher.field@nrl.navy.mil, cfield2@gmail.com>
-
 == Introduction ==
 
 The Keithley 2602 is a dual-channel source-meter used for measuring and sourcing a range of currents and voltages, and the hardware is commercially available from [http://www.keithley.com Keithley, Inc.] This software provides an alternative LabVIEW driver that uses the NI-VISA driver to communicate with the hardware.
