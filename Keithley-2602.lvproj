@@ -22,6 +22,7 @@
 				<Item Name="DisplayDataGlobalAction.ctl" Type="VI" URL="../src/application/DisplayDataGlobalAction.ctl"/>
 				<Item Name="ExecutableConfiguration.ctl" Type="VI" URL="../src/application/ExecutableConfiguration.ctl"/>
 				<Item Name="Setup.ctl" Type="VI" URL="../src/application/Setup.ctl"/>
+				<Item Name="SetupGlobalAction.ctl" Type="VI" URL="../src/application/SetupGlobalAction.ctl"/>
 				<Item Name="UIAction.ctl" Type="VI" URL="../src/application/UIAction.ctl"/>
 				<Item Name="UIActionQueueElement.ctl" Type="VI" URL="../src/application/UIActionQueueElement.ctl"/>
 			</Item>
@@ -101,6 +102,7 @@
 				<Item Name="ReadExecutableConfiguration.vi" Type="VI" URL="../src/application/ReadExecutableConfiguration.vi"/>
 				<Item Name="ResetDisplayChartDialog.vi" Type="VI" URL="../src/application/ResetDisplayChartDialog.vi"/>
 				<Item Name="SetDisplayDataChartDialogTitle.vi" Type="VI" URL="../src/application/SetDisplayDataChartDialogTitle.vi"/>
+				<Item Name="SetupGlobal.vi" Type="VI" URL="../src/application/SetupGlobal.vi"/>
 				<Item Name="Shutdown.vi" Type="VI" URL="../src/application/Shutdown.vi"/>
 				<Item Name="SourceDialog.vi" Type="VI" URL="../src/application/SourceDialog.vi"/>
 				<Item Name="TriggerDialog.vi" Type="VI" URL="../src/application/TriggerDialog.vi"/>

@@ -1,11 +1,11 @@
 = Kiethley 2602 Application TODO =
 
- # Remove: absolute value from resistance calculation and display
  # Add: indicator of negative voltage, current, or resistance to each display value
  # Move: "ReadBuffer.vi" out of for loop and after reading all of the values
+ # Add: Simulate data
  # Add: ability to have different source values per device
  # Add: ability to have different source function per device
- # Add: Logs tab for looking at previous data
+ # Add: Logs dialog for looking at previous data
  # Add: RS-232 or GPIB interface selection based on executable configuration file directive
  # Add: constant or ramp sourcing versus time
  # Add: descriptions to all controls
@@ -14,10 +14,7 @@
  # Add: Digital IO naming ports to setup file
  # Add: Port names to comment line of log file for each digital IO line column
  # Add: Live Chart configuration dialog
- # Add: pop-up live chart data dialog
  # Add: selecting DUT by name instead of ID
- # Add: displaying multiple DUTs on Live Chart
- # Reset: Live Chart on DUT or Function change
  # Add: calling a script or external program on log stop
  # Add: calling a script or external program on hardware stop
  # Create: Functional Global of setup cluster instead of shift register passing
@@ -33,3 +30,4 @@
  # Add: context help to VIs
  # Create: HTML README file
  # Create: palette menus
+ # Refactor: Reorganize driver code to follow LabVIEW Plug and Play driver structure
