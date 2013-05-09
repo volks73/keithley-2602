@@ -17,8 +17,12 @@
 			<Item Name="App" Type="Folder">
 				<Item Name="ActionQueues.ctl" Type="VI" URL="../src/application/ActionQueues.ctl"/>
 				<Item Name="DataStructures.ctl" Type="VI" URL="../src/application/DataStructures.ctl"/>
+				<Item Name="DisplayDataChartAction.ctl" Type="VI" URL="../src/application/DisplayDataChartAction.ctl"/>
+				<Item Name="DisplayDataChartDialogGlobalAction.ctl" Type="VI" URL="../src/application/DisplayDataChartDialogGlobalAction.ctl"/>
+				<Item Name="DisplayDataGlobalAction.ctl" Type="VI" URL="../src/application/DisplayDataGlobalAction.ctl"/>
 				<Item Name="ExecutableConfiguration.ctl" Type="VI" URL="../src/application/ExecutableConfiguration.ctl"/>
 				<Item Name="Setup.ctl" Type="VI" URL="../src/application/Setup.ctl"/>
+				<Item Name="SetupGlobalAction.ctl" Type="VI" URL="../src/application/SetupGlobalAction.ctl"/>
 				<Item Name="UIAction.ctl" Type="VI" URL="../src/application/UIAction.ctl"/>
 				<Item Name="UIActionQueueElement.ctl" Type="VI" URL="../src/application/UIActionQueueElement.ctl"/>
 			</Item>
@@ -88,11 +92,17 @@
 				<Item Name="CreateDefaultDeviceNames.vi" Type="VI" URL="../src/application/CreateDefaultDeviceNames.vi"/>
 				<Item Name="CreateLiveChartData.vi" Type="VI" URL="../src/application/CreateLiveChartData.vi"/>
 				<Item Name="CreateSetupDUTDisplayData.vi" Type="VI" URL="../src/application/CreateSetupDUTDisplayData.vi"/>
+				<Item Name="DisplayDataChartDialog.vi" Type="VI" URL="../src/application/DisplayDataChartDialog.vi"/>
+				<Item Name="DisplayDataChartDialogGlobal.vi" Type="VI" URL="../src/application/DisplayDataChartDialogGlobal.vi"/>
+				<Item Name="DisplayDataGlobal.vi" Type="VI" URL="../src/application/DisplayDataGlobal.vi"/>
 				<Item Name="DUTDialog.vi" Type="VI" URL="../src/application/DUTDialog.vi"/>
 				<Item Name="Initialize.vi" Type="VI" URL="../src/application/Initialize.vi"/>
 				<Item Name="LogDialog.vi" Type="VI" URL="../src/application/LogDialog.vi"/>
 				<Item Name="MeasureDialog.vi" Type="VI" URL="../src/application/MeasureDialog.vi"/>
 				<Item Name="ReadExecutableConfiguration.vi" Type="VI" URL="../src/application/ReadExecutableConfiguration.vi"/>
+				<Item Name="ResetDisplayChartDialog.vi" Type="VI" URL="../src/application/ResetDisplayChartDialog.vi"/>
+				<Item Name="SetDisplayDataChartDialogTitle.vi" Type="VI" URL="../src/application/SetDisplayDataChartDialogTitle.vi"/>
+				<Item Name="SetupGlobal.vi" Type="VI" URL="../src/application/SetupGlobal.vi"/>
 				<Item Name="Shutdown.vi" Type="VI" URL="../src/application/Shutdown.vi"/>
 				<Item Name="SourceDialog.vi" Type="VI" URL="../src/application/SourceDialog.vi"/>
 				<Item Name="TriggerDialog.vi" Type="VI" URL="../src/application/TriggerDialog.vi"/>
@@ -185,6 +195,7 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
@@ -218,13 +229,17 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/Keithley2602Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ECBE2860-FB9F-4A8B-A2B8-92DA5F54E6DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{114A42CD-B536-48A6-97D0-33D6E7052535}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VIs/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/VIs/App/DisplayDataChartDialog.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Application</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Application</Property>
