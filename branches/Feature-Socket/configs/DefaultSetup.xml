@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<source-meter xmlns="http://nrl.navy.mil/Keithley/2602/Version/1">
+
+  <deviceUnderTest>
+    <count>1</count>
+    <wirings>
+      <wiring>4</wiring>
+      <wiring>4</wiring>
+    </wirings>
+    <names>
+      <source>
+        <name>Device 1</name>
+      </source>
+      <source>
+        <name>Device 1</name>
+      </source>
+    </names>
+  </deviceUnderTest>
+
+  <log>
+    <start>
+      <triggerType>User</triggerType>
+      <timer>0.000000E+0</timer>
+      <digitalIOLine>1</digitalIOLine>
+      <digitalIOEdge>Rising</digitalIOEdge>
+    </start>
+    <rollover>
+      <triggerType>None</triggerType>
+      <timer>0.000000E+0</timer>
+      <fileSize>256</fileSize>
+      <digitalIOLine>1</digitalIOLine>
+      <digitalIOEdge>Rising</digitalIOEdge>
+    </rollover>
+    <stop>
+      <triggerType>User</triggerType>
+      <timer>0.000000E+0</timer>
+      <fileSize>256</fileSize>
+      <digitalIOLine>1</digitalIOLine>
+      <digitalIOEdge>Rising</digitalIOEdge>
+    </stop>
+  </log>
+
+  <trigger>
+    <input>
+      <type>None</type>
+      <timeout>100</timeout>
+      <delay>0</delay>
+      <digitalIOLine>1</digitalIOLine>
+      <digitalIOMode>Falling</digitalIOMode>
+    </input>
+    <output>
+      <type>None</type>
+      <delay>0</delay>
+      <digitalIOLine>1</digitalIOLine>
+      <digitalIOMode>Falling</digitalIOMode>
+      <digitalIOPulseWidth>5.000000E-5</digitalIOPulseWidth>
+    </output>
+  </trigger>
+
+  <sources>
+    <start>
+      <enabled>True</enabled>
+      <function>Voltage</function>
+      <level>1.000000E+0</level>
+      <autoRangeEnabled>True</autoRangeEnabled>
+      <highLimit>0.000000E+0</highLimit>
+      <lowLimit>0.000000E+0</lowLimit>
+    </start>
+    <start>
+      <enabled>True</enabled>
+      <function>Voltage</function>
+      <level>1.000000E+0</level>
+      <autoRangeEnabled>True</autoRangeEnabled>
+      <highLimit>0.000000E+0</highLimit>
+      <lowLimit>0.000000E+0</lowLimit>
+    </start>
+  </sources>
+
+  <measures>
+    <measure>
+      <enabled>True</enabled>
+      <count>1</count>
+      <interval>2.500000E-2</interval>
+      <voltage>
+        <autoRangeEnabled>True</autoRangeEnabled>
+        <highLimit>0.000000E+0</highLimit>
+        <lowLimit>0.000000E+0</lowLimit>
+      </voltage>
+      <current>
+        <autoRangeEnabled>True</autoRangeEnabled>
+        <highLimit>0.000000E+0</highLimit>
+        <lowLimit>0.000000E+0</lowLimit>
+      </current>
+    </measure>
+    <measure>
+      <enabled>True</enabled>
+      <count>1</count>
+      <interval>2.500000E-2</interval>
+      <voltage>
+        <autoRangeEnabled>True</autoRangeEnabled>
+        <highLimit>0.000000E+0</highLimit>
+        <lowLimit>0.000000E+0</lowLimit>
+      </voltage>
+      <current>
+        <autoRangeEnabled>True</autoRangeEnabled>
+        <highLimit>0.000000E+0</highLimit>
+        <lowLimit>0.000000E+0</lowLimit>
+      </current>
+    </measure>
+  </measures>
+
+</source-meter>
